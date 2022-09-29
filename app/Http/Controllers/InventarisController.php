@@ -38,7 +38,7 @@ class InventarisController extends Controller
      *
      * @param  \App\Http\Requests\StoreInventarisRequest  $request
      * @return \Illuminate\Http\Response
-     */
+
     public function store(Request $request)
     {
         $inventaris = Inventaris::create([
